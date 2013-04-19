@@ -3,7 +3,116 @@
 <head>
 	<title>S3 testpage</title>
 	<style>
+
 	body {background: #333333;}
+
+/*	css sprite */	
+    .under {
+/*        padding: 10px;
+        background-color: black;
+*/        font-size: 1.5em;
+        line-height: 250px;
+        font-weight: bold;
+        display: absolute;
+    }
+    
+    ul {list-style: none;}
+    
+    a {
+        width: 100px;
+        height: 100px;
+        background: url(img/isoj_sprite.png);
+        color: #dadada;
+        text-indent: -9000px;
+        margin: 50px 10px;
+        text-decoration: none;
+        float: left;
+        }
+    
+        a#idea {background-position: 0 0;}
+        a:hover#idea {background-position: 0 -100px;
+            text-indent: 0;
+            text-align: center;}
+        
+        a#meeting {background-position: -100px 0;}
+        a:hover#meeting {background-position: -100px -100px;
+            text-indent: 0;
+            text-align: center;}
+            
+        a#wireframes {background-position: -200px 0;}
+        a:hover#wireframes {background-position: -200px -100px;
+            text-indent: 0;
+            text-align: center;}
+
+        a#mockups {background-position: -300px 0;}
+        a:hover#mockups {background-position: -300px -100px;
+            text-indent: 0;
+            text-align: center;}
+            
+        a#rfp {background-position: -400px 0;}
+        a:hover#rfp {background-position: -400px -100px;
+            text-indent: 0;
+            text-align: center;}
+            
+        a#mvp {background-position: -500px 0;}
+        a:hover#mvp {background-position: -500px -100px;
+            text-indent: 0;
+            text-align: center;}
+            
+        a#creep {background-position: -600px 0;}
+        a:hover#creep {background-position: -600px -100px;
+            text-indent: 0;
+            text-align: center;}
+            
+        a#ghosts {background-position: -700px 0;}
+        a:hover#ghosts {background-position: -700px -100px;
+            text-indent: 0;
+            text-align: center;}
+            
+        a#people {background-position: -800px 0;}
+        a:hover#people {background-position: -800px -100px;
+            text-indent: 0;
+            text-align: center;}
+
+
+/*      a { background: url(social_sprite.png);
+        margin: 20px 10px 10px 10px;
+        text-indent: -9000px;
+        width: 50px;
+        height: 50px;
+        float: left;
+        }}*/
+
+
+    	a#codeacademy {background-position: 0 0;}
+    	a:hover#codeacademy {
+    		background-position: 0 -50px;
+    		background-color: none;}
+    	a#builtinchicago {background-position: 150px 0;}
+    	a:hover#builtinchicago {
+    		background-position: 150px -50px;
+    		background-color: none;}
+    	a#twitter {background-position: 100px 0;}
+    	a:hover#twitter {
+    		background-position: 100px -50px;
+    		background-color: none;}
+    	a#email {background-position: 50px 0;}
+    	a:hover#email {
+    		background-position: 50px -50px;
+    		background-color: none;}
+        
+        <li><a id="idea" href="#">Idea</a></li>
+	 	<li><a id="meeting" href="#">Meeting</a></li>
+	 	<li><a id="wireframes" href="#">Wireframes</a></li>
+	 	<li><a id="idea" href="#">Idea</a></li>
+	 	<li><a id="meeting" href="#">Meeting</a></li>
+	 	<li><a id="wireframes" href="#">Wireframes</a></li>
+        
+        
+        
+        
+    
+    }
 	
 /*	intro div */	
 	
@@ -99,45 +208,21 @@
 
 <body>
 
-<!-- slide 1
-done intro
+<!-- 
+done slide 1... done intro
+done slide 2... background (excelerate, etc)
+done slide 3... your plan is wrong
+done slide 4... apps are bad for building a product
 
-slide 2
-background (excelerate, etc)
-
-done slide 3
-your plan is wrong
-
-done slide 4
-apps are bad for building a product
-
-slide 5
-show the cycle of apps
-
-slide 6
-just ship it
-don't let your own perfection kill you (lean startup, eric ries)
-
-slide 6
-walk of fame example
-
-slide 7
-show the cycle of testing
-
-slide 8
-dropbox, launchrock & google ads
-
-slide 9
-many ideas (guy kawasaki, art of the start)
-
-slide 10
-building many responsive sites (tribune)
-
-slide 11
-always be testing (lean UX)
-
-slide 12
-Admiral Ackbar "It's a trap!" -->
+slide 5... show the cycle of apps
+slide 6... just ship it... don't let your own perfection kill you (lean startup, eric ries)
+slide 7... walk of fame example
+slide 8... show the cycle of testing
+slide 9... dropbox, launchrock & google ads
+slide 10... many ideas (guy kawasaki, art of the start)
+slide 11... building many responsive sites (tribune)
+slide 12... always be testing (lean UX)
+-->
 
 
 		<!-- <div class="navbar navbar-inverse navbar-fixed-top">
@@ -180,7 +265,7 @@ Admiral Ackbar "It's a trap!" -->
 			
 				<div class="span10 panelpad">
 					<h1 class="mainhead black">Your plan <br>is wrong!</h1>
-					<h5 class="mainsub black">Find out what's wrong now&#151;not later.</h5>
+					<h5 class="mainsub black">Nothing is ever 100% correct.</h5>
 					
 				</div>
 				<div class="span1 hidden-phone"></div>
@@ -190,11 +275,9 @@ Admiral Ackbar "It's a trap!" -->
 			<div class="row-fluid">
 				
 				<div class="span1 hidden-phone"></div>
-			
-				<div class="span10 panelpad">
+			    <div class="span10 panelpad">
 					<h1 class="mainhead">Apps = <br>last thing <br>you need</h1>
 					<h5 class="mainsub">Don't get lost in the desire to build.</h5>
-					
 				</div>
 				<div class="span1 hidden-phone"></div>
 			</div>
@@ -205,13 +288,117 @@ Admiral Ackbar "It's a trap!" -->
 				<div class="span1 hidden-phone"></div>
 			
 				<div class="span10 panelpad">
-					<h5 class="mainsub">The stereotypical build cycle</h5>
-					
-				</div>
+					<h5 class="mainsub">The stealth build cycle</h5>
+					<ul id="cycle1">
+            			<li><a id="idea" href="#"><span class="under">Idea</span></a></li>
+            		 	<li><a id="meeting" href="#"><span class="under">Meeting</span></a></li>
+            		 	<li><a id="wireframes" href="#"><span class="under">Wires</span></a></li>
+            		 	<li><a id="meeting" href="#"><span class="under">Meeting</span></a></li>
+            		 	<li><a id="mockups" href="#"><span class="under">Mockups</span></a></li>
+            		 	<li><a id="meeting" href="#"><span class="under">Meeting</span></a></li>
+            		 	<li><a id="rfp" href="#"><span class="under">RFP</span></a></li>
+            		 	<li><a id="meeting" href="#"><span class="under">Meeting</span></a></li>
+            		 	<li><a id="mvp" href="#"><span class="under">MVP</span></a></li>
+            		 	<li><a id="meeting" href="#"><span class="under">Meeting</span></a></li>
+            		 	<li><a id="creep" href="#"><span class="under">Creep</span></a></li>
+            		 	<li><a id="meeting" href="#"><span class="under">Meeting</span></a></li>
+            		 	<li><a id="ghosts" href="#"><span class="under">Surprise</span></a></li>            		 	
+            		</ul>
+			    </div>
 				<div class="span1 hidden-phone"></div>
 			</div>
 		</div>
-			
+		<div class="container-fluid" id="tainer5">
+			<div class="row-fluid">
+				<div class="span1 hidden-phone"></div>
+				<div class="span10 panelpad">
+					<h1 class="mainhead">Meet the Walk of Fame app</h1>
+					<h5 class="mainsub">Thousands of pages of content</h5>
+					<h5 class="mainsub">Great photography archive</h5>
+					<h5 class="mainsub">Street team scouring Hollywood Blvd</h5>
+					<h5 class="mainsub">Tour operators loved it</h5>
+			    </div>
+				<div class="span1 hidden-phone"></div>
+			</div>
+		</div>
+		<div class="container-fluid" id="tainer6">
+			<div class="row-fluid">
+				<div class="span1 hidden-phone"></div>
+				<div class="span10 panelpad">
+					<h1 class="mainhead">Nobody wanted it</h1>
+					<h5 class="mainsub">Ultra-niche market</h5>
+					<h5 class="mainsub">Likely users were late tech adopters</h5>
+					<h5 class="mainsub">Tour operators kept it to themselves</h5>
+					<h5 class="mainsub">Point to Lean Startup</h5>
+			    </div>
+				<div class="span1 hidden-phone"></div>
+			</div>
+		</div>
+		<div class="container-fluid" id="tainer7">
+			<div class="row-fluid">
+				<div class="span1 hidden-phone"></div>
+				<div class="span10 panelpad">
+					<h5 class="mainsub">Change the process to change the outcome</h5>
+					<h5 class="mainsub">Point to Lean UX</h5>
+                    <ul id="cycle1">
+            			<li><a id="idea" href="#"><span class="under">Idea</span></a></li>
+            		 	<li><a id="people" href="#"><span class="under">People</span></a></li>
+                        <li><a id="meeting" href="#"><span class="under">Meeting</span></a></li>
+            		 	<li><a id="mvp" href="#"><span class="under">MVP</span></a></li>
+            		 	<li><a id="people" href="#"><span class="under">People</span></a></li>
+            		 	<li><a id="meeting" href="#"><span class="under">Meeting</span></a></li>
+            		</ul>
+			    </div>
+				<div class="span1 hidden-phone"></div>
+			</div>
+		</div>
+		<div class="container-fluid" id="tainer8">
+			<div class="row-fluid">
+				<div class="span1 hidden-phone"></div>
+				<div class="span10 panelpad">
+					<h1 class="mainhead">But what about my brand?</h1>
+					<h5 class="mainsub">Release under a fake name</h5>
+					<h5 class="mainsub">Use small test batches</h5>
+					<h5 class="mainsub">Find your test audience via targeted google ads</h5>
+			    </div>
+				<div class="span1 hidden-phone"></div>
+			</div>
+		</div>
+		<div class="container-fluid" id="tainer9">
+			<div class="row-fluid">
+				<div class="span1 hidden-phone"></div>
+				<div class="span10 panelpad">
+					<h1 class="mainhead">Start with a site</h1>
+					<h5 class="mainsub">Everything responsive*.</h5>
+					<h5 class="mainsub">Study real data before spending real money.</h5>
+					<p>* I'll make this presentation responsive, eventually.</p>
+					
+					
+			    </div>
+				<div class="span1 hidden-phone"></div>
+			</div>
+		</div>
+		<div class="container-fluid" id="tainer10">
+			<div class="row-fluid">
+				<div class="span1 hidden-phone"></div>
+				<div class="span10 panelpad">
+					<h1 class="mainhead">Make meaning</h1>
+					<h5 class="mainsub">If you want to win a customer, solve a problem for them.</h5>
+					<h5 class="mainsub">Point to Art of the Start</h5>
+			    </div>
+				<div class="span1 hidden-phone"></div>
+			</div>
+		</div>
+		<div class="container-fluid" id="tainer11">
+			<div class="row-fluid">
+				<div class="span1 hidden-phone"></div>
+				<div class="span10 panelpad">
+					<h1 class="mainhead">Solve problems<br>Be Awesome</h1>
+					<h5 class="mainsub">Thanks! @designhawg</h5>
+			    </div>
+				<div class="span1 hidden-phone"></div>
+			</div>
+		</div>
 			
 			
 			
