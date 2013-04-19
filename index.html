@@ -8,111 +8,177 @@
 
 /*	css sprite */	
     .under {
-/*        padding: 10px;
-        background-color: black;
-*/        font-size: 1.5em;
-        line-height: 250px;
+        font-size: 1.5em;
+        line-height: 350px;
         font-weight: bold;
         display: absolute;
     }
     
-    ul {list-style: none;}
+    .under2{
+        font-size: 1.5em;
+        line-height: 450px;
+        font-weight: bold;
+        display: absolute;
+    }
+    
+    ul {list-style: none;
+        padding-bottom: 20px;
+        margin-bottom: 20px;}
+        
+    #stealth {margin: 0 0 0 0;
+        width: 100%;}
     
     a {
-        width: 100px;
-        height: 100px;
-        background: url(img/isoj_sprite.png);
+        width: 150px;
+        height: 150px;
+        background: url('https://s3-us-west-2.amazonaws.com/s3testsite/img/ISOJ-icons-mid.png');
         color: #dadada;
         text-indent: -9000px;
-        margin: 50px 10px;
+        margin: 20px 20px 30px 0;
         text-decoration: none;
         float: left;
         }
     
         a#idea {background-position: 0 0;}
-        a:hover#idea {background-position: 0 -100px;
+        a:hover#idea {background-position: 0 -150px;
             text-indent: 0;
-            text-align: center;}
+            text-align: center;
+            text-decoration: none;
+            color: #dadada;}
         
-        a#meeting {background-position: -100px 0;}
-        a:hover#meeting {background-position: -100px -100px;
+        a#meeting {background-position: -150px 0;}
+        a:hover#meeting {background-position: -150px -150px;
             text-indent: 0;
-            text-align: center;}
+            text-align: center;
+            text-decoration: none;
+            color: #dadada;}
             
-        a#wireframes {background-position: -200px 0;}
-        a:hover#wireframes {background-position: -200px -100px;
+        a#wireframes {background-position: -300px 0;}
+        a:hover#wireframes {background-position: -300px -150px;
             text-indent: 0;
-            text-align: center;}
+            text-align: center;
+            text-decoration: none;
+            color: #dadada;}
 
-        a#mockups {background-position: -300px 0;}
-        a:hover#mockups {background-position: -300px -100px;
+        a#mockups {background-position: -450px 0;}
+        a:hover#mockups {background-position: -450px -150px;
             text-indent: 0;
-            text-align: center;}
+            text-align: center;
+            text-decoration: none;
+            color: #dadada;}
             
-        a#rfp {background-position: -400px 0;}
-        a:hover#rfp {background-position: -400px -100px;
+        a#rfp {background-position: -600px 0;}
+        a:hover#rfp {background-position: -600px -150px;
             text-indent: 0;
-            text-align: center;}
+            text-align: center;
+            text-decoration: none;
+            color: #dadada;}
             
-        a#mvp {background-position: -500px 0;}
-        a:hover#mvp {background-position: -500px -100px;
+        a#mvp {background-position: -750px 0;}
+        a:hover#mvp {background-position: -750px -150px;
             text-indent: 0;
-            text-align: center;}
+            text-align: center;
+            text-decoration: none;
+            color: #dadada;}
             
-        a#creep {background-position: -600px 0;}
-        a:hover#creep {background-position: -600px -100px;
+        a#creep {background-position: -900px 0;}
+        a:hover#creep {background-position: -900px -150px;
             text-indent: 0;
-            text-align: center;}
+            text-align: center;
+            text-decoration: none;
+            color: #dadada;}
             
-        a#ghosts {background-position: -700px 0;}
-        a:hover#ghosts {background-position: -700px -100px;
+        a#ghosts {background-position: -1150px 0;}
+        a:hover#ghosts {background-position: -1150px -150px;
             text-indent: 0;
-            text-align: center;}
+            text-align: center;
+            text-decoration: none;
+            color: #dadada;}
             
-        a#people {background-position: -800px 0;}
-        a:hover#people {background-position: -800px -100px;
+        a#people {background-position: -1350px 0;}
+        a:hover#people {background-position: -1350px -150px;
             text-indent: 0;
-            text-align: center;}
-
-
-/*      a { background: url(social_sprite.png);
-        margin: 20px 10px 10px 10px;
+            text-align: center;
+            text-decoration: none;
+            color: #dadada;}
+            
+            
+    .a2 {
+        width: 200px;
+        height: 200px;
+        background: url('https://s3-us-west-2.amazonaws.com/s3testsite/img/isoj_icons_big.png');
+        color: #dadada;
         text-indent: -9000px;
-        width: 50px;
-        height: 50px;
+        margin: 20px 20px 30px 0;
+        text-decoration: none;
         float: left;
-        }}*/
+        }
 
+        a#idea2 {background-position: 0 0;}
+        a:hover#idea2 {background-position: 0 -200px;
+            text-indent: 0;
+            text-align: center;
+            text-decoration: none;
+            color: #dadada;}
 
-    	a#codeacademy {background-position: 0 0;}
-    	a:hover#codeacademy {
-    		background-position: 0 -50px;
-    		background-color: none;}
-    	a#builtinchicago {background-position: 150px 0;}
-    	a:hover#builtinchicago {
-    		background-position: 150px -50px;
-    		background-color: none;}
-    	a#twitter {background-position: 100px 0;}
-    	a:hover#twitter {
-    		background-position: 100px -50px;
-    		background-color: none;}
-    	a#email {background-position: 50px 0;}
-    	a:hover#email {
-    		background-position: 50px -50px;
-    		background-color: none;}
-        
-        <li><a id="idea" href="#">Idea</a></li>
-	 	<li><a id="meeting" href="#">Meeting</a></li>
-	 	<li><a id="wireframes" href="#">Wireframes</a></li>
-	 	<li><a id="idea" href="#">Idea</a></li>
-	 	<li><a id="meeting" href="#">Meeting</a></li>
-	 	<li><a id="wireframes" href="#">Wireframes</a></li>
-        
-        
-        
-        
-    
-    }
+        a#meeting2 {background-position: -200px 0;}
+        a:hover#meeting2 {background-position: -200px -200px;
+            text-indent: 0;
+            text-align: center;
+            text-decoration: none;
+            color: #dadada;}
+
+        a#wireframes2 {background-position: -400px 0;}
+        a:hover#wireframes2 {background-position: -400px -200px;
+            text-indent: 0;
+            text-align: center;
+            text-decoration: none;
+            color: #dadada;}
+
+        a#mockups2 {background-position: -600px 0;}
+        a:hover#mockups2 {background-position: -600px -200px;
+            text-indent: 0;
+            text-align: center;
+            text-decoration: none;
+            color: #dadada;}
+
+        a#rfp2 {background-position: -800px 0;}
+        a:hover#rfp2 {background-position: -800px -200px;
+            text-indent: 0;
+            text-align: center;
+            text-decoration: none;
+            color: #dadada;}
+
+        a#mvp2 {background-position: -1000px 0;}
+        a:hover#mvp2 {background-position: -1000px -200px;
+            text-indent: 0;
+            text-align: center;
+            text-decoration: none;
+            color: #dadada;}
+
+        a#creep2 {background-position: -1200px 0;}
+        a:hover#creep2 {background-position: -1200px -200px;
+            text-indent: 0;
+            text-align: center;
+            text-decoration: none;
+            color: #dadada;}
+
+        a#ghosts2 {background-position: -1400px 0;}
+        a:hover#ghosts2 {background-position: -1400px -200px;
+            text-indent: 0;
+            text-align: center;
+            text-decoration: none;
+            color: #dadada;}
+
+        a#people2 {background-position: -1600px 0;}
+        a:hover#people2 {background-position: -1600px -200px;
+            text-indent: 0;
+            text-align: center;
+            text-decoration: none;
+            color: #dadada;}
+            
+            
+            
 	
 /*	intro div */	
 	
@@ -138,16 +204,88 @@
 		  background-size: cover;}
 		
 	#tainer4 {
-		background: url('https://s3-us-west-2.amazonaws.com/s3testsite/img/lean_anarchy_back.jpg') no-repeat;
+		background: url('https://s3-us-west-2.amazonaws.com/s3testsite/img/spyback.jpg') no-repeat;
 		-webkit-background-size: cover;
 		  -moz-background-size: cover;
 		  -o-background-size: cover;
 		  background-size: cover;}
+		  
+	#tainer4 {
+  		background: url('https://s3-us-west-2.amazonaws.com/s3testsite/img/spyback.jpg') no-repeat;
+  		-webkit-background-size: cover;
+  		  -moz-background-size: cover;
+  		  -o-background-size: cover;
+  		  background-size: cover;}
+  		  
+    #tainer5 {
+		background: url('https://s3-us-west-2.amazonaws.com/s3testsite/img/walk_back.jpg') no-repeat;
+		-webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;
+		 border-top: 10px solid #333333; 
+		 }
+		 
+     #tainer7 {
+ 		background: url('https://s3-us-west-2.amazonaws.com/s3testsite/img/crowd_back.jpg') no-repeat;
+ 		-webkit-background-size: cover;
+ 		  -moz-background-size: cover;
+ 		  -o-background-size: cover;
+ 		  background-size: cover;
+ 		 border-top: 10px solid #333333; 
+ 		 }
+    #tainer8 {
+ 		background: url('https://s3-us-west-2.amazonaws.com/s3testsite/img/brand_back.jpg') no-repeat;
+ 		-webkit-background-size: cover;
+ 		  -moz-background-size: cover;
+ 		  -o-background-size: cover;
+ 		  background-size: cover;
+ 		 border-top: 10px solid #333333; 
+ 		 }
+ 		 
+    #tainer9 {
+  		background: url('https://s3-us-west-2.amazonaws.com/s3testsite/img/tribpage_back.jpg') no-repeat;
+  		-webkit-background-size: cover;
+  		  -moz-background-size: cover;
+  		  -o-background-size: cover;
+  		  background-size: cover;
+  		 border-top: 10px solid #333333; 
+  		 }
+  		 
+         #tainer11 {
+       		background: #B11116; 
+       		 }
+
+
+    #tainercorp {
+		background: url('https://s3-us-west-2.amazonaws.com/s3testsite/img/business_back.jpg') no-repeat;
+		-webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;}
+		  
+    #tainercustomer {
+		background: url('https://s3-us-west-2.amazonaws.com/s3testsite/img/customer_back.jpg') no-repeat;
+		-webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;}		  
+		  
 	
 	.panelpad {
 		padding: 30px;
 		margin: 300px 0;
 	}
+	
+	.panelshallow {
+		padding: 0;
+		margin: 200px 0;
+	}
+	
+	#anarchy {
+	    margin: 200px 0;
+	}
+
 	
 	.mainhead {
 		text-align: left;
@@ -172,19 +310,59 @@
 	}
 	
 	.author {
-		font-size: 2em;
-		margin-top: -10px;
-		width: 30%;
-		padding: 17px 10px 10px 10px;
+		font-size: 3em;
+		margin-top: 0px;
+		width: 50%;
+		padding: 27px 15px 20px 15px;
 		background: #dadada;
 		font-family: "jaf-bernino-sans-comp",sans-serif;
-		text-transform: uppercase;
+		text-transform: none;
 		color: #480000;
+		letter-spacing: -.02em;
+		
 		
 	}
 	
-	.black {
-		color: #000000;
+	.first {padding-top: 10px;}
+	
+	.ghosties {
+	    background: url('https://s3-us-west-2.amazonaws.com/s3testsite/img/ghost_icon.png') no-repeat;
+	    display: block;
+	    width: 150px;
+        height: 150px;
+        margin: 0 0 10px 5px;
+/*        float: left;
+*/	}
+
+	.homework {
+	    background: url('https://s3-us-west-2.amazonaws.com/s3testsite/img/homework.jpg') no-repeat;
+	    display: block;
+	    width: 100%;
+	    height: 300px;
+        margin: 0 0 0 -20px;
+/*        float: left;
+*/	}
+	
+	.black { color: #000000; }
+	
+	.grey { color: #BBBBBB; }
+		
+	.smaller {
+	    font-size: 9em;
+	    line-height: .85em;
+	    margin-bottom: 20px;
+	}
+	
+	.bullet {
+	    font-size: 3.5em;
+	    margin-bottom: 10px;
+	}
+	
+	.rightpad {
+	    padding-top: 20px;
+	}
+	
+	.lift { margin-top: -100px;
 	}
 	
 	h1, p {
@@ -252,12 +430,23 @@ slide 12... always be testing (lean UX)
 			
 				<div class="span10 panelpad">
 					<h1 class="mainhead">Going Lean</h1>
-					<h5 class="mainsub">Failing as fast as possible in the land of mobile</h5>
-					<p class="author">Chris Courtney, ISOJ Mobile Panel</p>
+					<h5 class="mainsub first">Failing as fast as possible in the land of mobile</h5>
+					<p class="author">Chris Courtney @designhawg</p>
 				</div>
 				<div class="span1 hidden-phone"></div>
 			</div>
 		</div>
+		<div class="container-fluid" id="tainercreds">
+			<div class="row-fluid">
+				<div class="span1 hidden-phone"></div>
+				<div class="span10 panelshallow">
+				    <div class="startup"></div>
+    					<h5 class="mainsub black">3 years in startup space > 15 years in media</h5>
+			    </div>
+				<div class="span1 hidden-phone"></div>
+			</div>
+		</div>
+		
 		<div class="container-fluid" id="tainer2">
 			<div class="row-fluid">
 				
@@ -265,7 +454,7 @@ slide 12... always be testing (lean UX)
 			
 				<div class="span10 panelpad">
 					<h1 class="mainhead black">Your plan <br>is wrong!</h1>
-					<h5 class="mainsub black">Nothing is ever 100% correct.</h5>
+					<h5 class="mainsub black first">Strategy is never 100% correct.</h5>
 					
 				</div>
 				<div class="span1 hidden-phone"></div>
@@ -275,10 +464,19 @@ slide 12... always be testing (lean UX)
 			<div class="row-fluid">
 				
 				<div class="span1 hidden-phone"></div>
-			    <div class="span10 panelpad">
+			    <div class="span10 panelpad" id="anarchy">
 					<h1 class="mainhead">Apps = <br>last thing <br>you need</h1>
-					<h5 class="mainsub">Don't get lost in the desire to build.</h5>
+					<h5 class="mainsub first">Don't get lost in the desire to build.</h5>
 				</div>
+				<div class="span1 hidden-phone"></div>
+			</div>
+		</div>
+		<div class="container-fluid" id="tainercorp">
+			<div class="row-fluid">
+				
+				<div class="span1 hidden-phone"></div>
+			    <div class="span10 panelpad">
+			    </div>
 				<div class="span1 hidden-phone"></div>
 			</div>
 		</div>
@@ -287,9 +485,9 @@ slide 12... always be testing (lean UX)
 				
 				<div class="span1 hidden-phone"></div>
 			
-				<div class="span10 panelpad">
+				<div class="span10 panelshallow">
 					<h5 class="mainsub">The stealth build cycle</h5>
-					<ul id="cycle1">
+					<ul id="stealth">
             			<li><a id="idea" href="#"><span class="under">Idea</span></a></li>
             		 	<li><a id="meeting" href="#"><span class="under">Meeting</span></a></li>
             		 	<li><a id="wireframes" href="#"><span class="under">Wires</span></a></li>
@@ -302,7 +500,6 @@ slide 12... always be testing (lean UX)
             		 	<li><a id="meeting" href="#"><span class="under">Meeting</span></a></li>
             		 	<li><a id="creep" href="#"><span class="under">Creep</span></a></li>
             		 	<li><a id="meeting" href="#"><span class="under">Meeting</span></a></li>
-            		 	<li><a id="ghosts" href="#"><span class="under">Surprise</span></a></li>            		 	
             		</ul>
 			    </div>
 				<div class="span1 hidden-phone"></div>
@@ -311,12 +508,16 @@ slide 12... always be testing (lean UX)
 		<div class="container-fluid" id="tainer5">
 			<div class="row-fluid">
 				<div class="span1 hidden-phone"></div>
-				<div class="span10 panelpad">
-					<h1 class="mainhead">Meet the Walk of Fame app</h1>
-					<h5 class="mainsub">Thousands of pages of content</h5>
-					<h5 class="mainsub">Great photography archive</h5>
-					<h5 class="mainsub">Street team scouring Hollywood Blvd</h5>
-					<h5 class="mainsub">Tour operators loved it</h5>
+				<div class="span10 panelshallow">
+				    <div class="span6 lefttext">
+					<h1 class="mainhead smaller">Meet the <br>LA Walk <br>of Fame app</h1>
+					<h5 class="mainsub bullet first">Thousands of pages of content</h5>
+					<h5 class="mainsub bullet">Great photography archive</h5>
+					<h5 class="mainsub bullet">Street team scouring Hollywood Blvd</h5>
+					<h5 class="mainsub bullet">Tour operators loved it</h5>
+					</div>
+					<div class="span6 righttext rightpad"><img src="https://s3-us-west-2.amazonaws.com/s3testsite/img/la_iphone.png" width="90%">
+					</div>
 			    </div>
 				<div class="span1 hidden-phone"></div>
 			</div>
@@ -324,42 +525,35 @@ slide 12... always be testing (lean UX)
 		<div class="container-fluid" id="tainer6">
 			<div class="row-fluid">
 				<div class="span1 hidden-phone"></div>
-				<div class="span10 panelpad">
-					<h1 class="mainhead">Nobody wanted it</h1>
-					<h5 class="mainsub">Ultra-niche market</h5>
-					<h5 class="mainsub">Likely users were late tech adopters</h5>
-					<h5 class="mainsub">Tour operators kept it to themselves</h5>
-					<h5 class="mainsub">Point to Lean Startup</h5>
+				<div class="span10 panelshallow">
+				    <div class="ghosties"></div>
+					<h1 class="mainhead grey">Nobody wanted it</h1>
+					<h5 class="mainsub bullet grey first">Ultra-niche market</h5>
+					<h5 class="mainsub bullet grey">Likely users were late tech adopters</h5>
+					<h5 class="mainsub bullet grey">Tour operators kept it to themselves</h5>
 			    </div>
 				<div class="span1 hidden-phone"></div>
 			</div>
 		</div>
-		<div class="container-fluid" id="tainer7">
+		<div class="container-fluid" id="tainercustomer">
 			<div class="row-fluid">
+
 				<div class="span1 hidden-phone"></div>
-				<div class="span10 panelpad">
-					<h5 class="mainsub">Change the process to change the outcome</h5>
-					<h5 class="mainsub">Point to Lean UX</h5>
-                    <ul id="cycle1">
-            			<li><a id="idea" href="#"><span class="under">Idea</span></a></li>
-            		 	<li><a id="people" href="#"><span class="under">People</span></a></li>
-                        <li><a id="meeting" href="#"><span class="under">Meeting</span></a></li>
-            		 	<li><a id="mvp" href="#"><span class="under">MVP</span></a></li>
-            		 	<li><a id="people" href="#"><span class="under">People</span></a></li>
-            		 	<li><a id="meeting" href="#"><span class="under">Meeting</span></a></li>
-            		</ul>
-			    </div>
+			    <div class="span10 panelpad">
+			        <h1 class="mainhead">find your customers &<br>talk to them.</h1>
+			        
+				</div>
 				<div class="span1 hidden-phone"></div>
 			</div>
 		</div>
 		<div class="container-fluid" id="tainer8">
 			<div class="row-fluid">
 				<div class="span1 hidden-phone"></div>
-				<div class="span10 panelpad">
-					<h1 class="mainhead">But what about my brand?</h1>
-					<h5 class="mainsub">Release under a fake name</h5>
-					<h5 class="mainsub">Use small test batches</h5>
-					<h5 class="mainsub">Find your test audience via targeted google ads</h5>
+				<div class="span10 panelshallow">
+					<h1 class="mainhead black smaller">&ldquo;...but releasing <br>unfinished products <br>will damage our brand!&rdquo;</h1>
+					<h5 class="mainsub black bullet first">Don't use your brand name</h5>
+					<h5 class="mainsub black bullet">Do the user testing offsite</h5>
+					<h5 class="mainsub black bullet">if all else fails... duck tape something together and release.</h5>
 			    </div>
 				<div class="span1 hidden-phone"></div>
 			</div>
@@ -367,24 +561,27 @@ slide 12... always be testing (lean UX)
 		<div class="container-fluid" id="tainer9">
 			<div class="row-fluid">
 				<div class="span1 hidden-phone"></div>
-				<div class="span10 panelpad">
-					<h1 class="mainhead">Start with a site</h1>
-					<h5 class="mainsub">Everything responsive*.</h5>
-					<h5 class="mainsub">Study real data before spending real money.</h5>
-					<p>* I'll make this presentation responsive, eventually.</p>
-					
-					
-			    </div>
+				<div class="span10 panelshallow">
+				
+				<div class="span6 lefttext">
+				    <h1 class="mainhead">Micro<br>sites,<br>FTW!</h1>
+    				<h5 class="mainsub bullet first">Responsive from the start.</h5>
+    				<h5 class="mainsub bullet">A form of contained innovation.</h5>
+    				<h5 class="mainsub bullet">Collect data, study data, USE THE DATA.</h5>
+    				
+				</div>
+				<div class="span6 righttext rightpad lift"><img src="https://s3-us-west-2.amazonaws.com/s3testsite/img/tribune_back.png" width="100%">
+				</div>
 				<div class="span1 hidden-phone"></div>
-			</div>
+			</div></div>
 		</div>
 		<div class="container-fluid" id="tainer10">
 			<div class="row-fluid">
 				<div class="span1 hidden-phone"></div>
-				<div class="span10 panelpad">
-					<h1 class="mainhead">Make meaning</h1>
-					<h5 class="mainsub">If you want to win a customer, solve a problem for them.</h5>
-					<h5 class="mainsub">Point to Art of the Start</h5>
+				<div class="span10 panelshallow">
+				    <div class="homework"></div>
+    					<h1 class="mainhead black">Go Make meaning</h1>
+    					<h5 class="mainsub black">Solving problems == Loyal customers.</h5>
 			    </div>
 				<div class="span1 hidden-phone"></div>
 			</div>
@@ -392,9 +589,9 @@ slide 12... always be testing (lean UX)
 		<div class="container-fluid" id="tainer11">
 			<div class="row-fluid">
 				<div class="span1 hidden-phone"></div>
-				<div class="span10 panelpad">
-					<h1 class="mainhead">Solve problems<br>Be Awesome</h1>
-					<h5 class="mainsub">Thanks! @designhawg</h5>
+				<div class="span10 panelshallow">
+    					<h1 class="mainhead">YOU ARE AWESOME.<br>I LIKE TACOS.<br>THANK YOU.</h1>
+    					<h5 class="mainsub">@designhawg</h5>
 			    </div>
 				<div class="span1 hidden-phone"></div>
 			</div>
@@ -404,68 +601,67 @@ slide 12... always be testing (lean UX)
 			
 			
 			
-			
-			<h1>...but are we solving any problems?</h1>
-			<p>Moving beyond "can we build it"</p>
-			<p>—Chris Courtney, Tribune News Application Team</p>
-			<p>#######</p>
-			
-			<h3>Would a startup survive if they treated their customers the way we do?</h3>
-			
-			
-			
-			<h1>Stop the presses and ask...</h1>
-			<p>1) Do customers recognize that they have the problem you are tring to solve?</p>
-			<p>2) If there was a solution, would they buy/use it?</p>
-			<p>3) Would they buy/use it from us?</p>
-			<p>4) Can we build a solution for that problem?</p>
-			<p>Mark Cook, Kodak</p>
-			<p>—from Eric Ries, The Lean Startup</p>
-			<p>#######</p>
-			
-			<h1>technology is your tool, not your solution</h1>
-			<p>Stop dictating to your customers what their problems are</p>
-			<small>Here I will talk about the old mentality of apps for everything and how that morphed into building a robust mobile site which then became everything shall be responsive. All the while, the industry keeps banging around the same basic thing. Shipping text and photos in slightly prettier packages.</small>
-			<p>#######</p>
-			
-			<h1>solutions to everyday problems are not platform specific</h1>
-			<p>If you are building an app experience that isn't focused on taking advantage of what a phone can do, then stop wasting precious time and build something available on all devices</p>
-			
-			<h1>build quickly and test</h1>
-			<p>ideas worth the effort of apps will show you their worth through their web traffic numbers</p>
-			
-			
-			<p>#######</p>
-			<p>#######</p>
-			<p>#######</p>
-			
-			
-			<h1>X steps to building better mobile products</h1>
-			
-			<h3>Step 1: Assume you have no idea what your customer wants</h3>
-			<p>We can't solve problems that people don't realize they have. Let's work with our communities find out what their issues really are and find unique ways to address them. Just being the 'leading source of < blank >' isn't enough to make you standout in the crowd anymore.</p>
-			
-			<h3>Step 2: Don't waste too much time picking ideas, just go forth and test any that have merit</h3>
-			<p>When we pick ideas, people to more polticking and less building. Who needs more politicians?</p>
-			
-			<h3>Step 3: Gathering data isn't the same as applying data to improve your products</h3>
-			<p>Nothing is more wasteful than taking the time to get the answers and then failing to implement them because you don't agree with them. The right thing to do has nothing to do with you. Get over yourself.</p>
-			
-			<h3>Step 4: Avoid the allure of vanity metrics</h3>
-			<p>It is all to easy to rally the workplace around total number of registered users. It's much harder to feel good about that number if few of them are coming back. However, if you have few registered users but a high return rate you may have something to build on and a true metric to celebrate.</p>
-			
-			<h3>Step 5: Accept that the web is the ultimate multi-platform strategy</h3>
-			<p>Responsive, mobile-mindset first. Make the market declare a need for anything that doesn't require a native app at launch and test your market rigorously before making such an investment of time or resources.  
-			
-			<h3>Step 6: Use public data to build customer relationships or lose them forever</h3>
-			<p>Data can allow you to interact with your audience at an intimate level and apply personal focus to the biggest stories and issues that impact their lives. If you can't find a way to take public data and enrich the lives of your audience, they won't be your audience for long.</p>
-			
-			<h3>Step 7: Release the hounds</h3>
-			<p>The power of the press has been distributed to the masses. Not everyone can use this power wisely, but I am pretty sure the people you have bothered to employ can. Listen to them and give them room to explore for you. If you don't, you'll likely see them do it on their own... against you.</p>
-			
-			<h3>Step 8: More awesome please</h3>
-			<p>There is an opportunity cost incurred every time we sit down and dedicate resources to rehash an app or website or cms that already exists. Focus your attention on building things that weren't even conceivable 5 years or 2 years ago. Doing so will give you the best shot to move the needle within your organization.</p>		
-		</div> 
+			<!-- <h1>...but are we solving any problems?</h1>
+			         <p>Moving beyond "can we build it"</p>
+			         <p>—Chris Courtney, Tribune News Application Team</p>
+			         <p>#######</p>
+			         
+			         <h3>Would a startup survive if they treated their customers the way we do?</h3>
+			         
+			         
+			         
+			         <h1>Stop the presses and ask...</h1>
+			         <p>1) Do customers recognize that they have the problem you are tring to solve?</p>
+			         <p>2) If there was a solution, would they buy/use it?</p>
+			         <p>3) Would they buy/use it from us?</p>
+			         <p>4) Can we build a solution for that problem?</p>
+			         <p>Mark Cook, Kodak</p>
+			         <p>—from Eric Ries, The Lean Startup</p>
+			         <p>#######</p>
+			         
+			         <h1>technology is your tool, not your solution</h1>
+			         <p>Stop dictating to your customers what their problems are</p>
+			         <small>Here I will talk about the old mentality of apps for everything and how that morphed into building a robust mobile site which then became everything shall be responsive. All the while, the industry keeps banging around the same basic thing. Shipping text and photos in slightly prettier packages.</small>
+			         <p>#######</p>
+			         
+			         <h1>solutions to everyday problems are not platform specific</h1>
+			         <p>If you are building an app experience that isn't focused on taking advantage of what a phone can do, then stop wasting precious time and build something available on all devices</p>
+			         
+			         <h1>build quickly and test</h1>
+			         <p>ideas worth the effort of apps will show you their worth through their web traffic numbers</p>
+			         
+			         
+			         <p>#######</p>
+			         <p>#######</p>
+			         <p>#######</p>
+			         
+			         
+			         <h1>X steps to building better mobile products</h1>
+			         
+			         <h3>Step 1: Assume you have no idea what your customer wants</h3>
+			         <p>We can't solve problems that people don't realize they have. Let's work with our communities find out what their issues really are and find unique ways to address them. Just being the 'leading source of < blank >' isn't enough to make you standout in the crowd anymore.</p>
+			         
+			         <h3>Step 2: Don't waste too much time picking ideas, just go forth and test any that have merit</h3>
+			         <p>When we pick ideas, people to more polticking and less building. Who needs more politicians?</p>
+			         
+			         <h3>Step 3: Gathering data isn't the same as applying data to improve your products</h3>
+			         <p>Nothing is more wasteful than taking the time to get the answers and then failing to implement them because you don't agree with them. The right thing to do has nothing to do with you. Get over yourself.</p>
+			         
+			         <h3>Step 4: Avoid the allure of vanity metrics</h3>
+			         <p>It is all to easy to rally the workplace around total number of registered users. It's much harder to feel good about that number if few of them are coming back. However, if you have few registered users but a high return rate you may have something to build on and a true metric to celebrate.</p>
+			         
+			         <h3>Step 5: Accept that the web is the ultimate multi-platform strategy</h3>
+			         <p>Responsive, mobile-mindset first. Make the market declare a need for anything that doesn't require a native app at launch and test your market rigorously before making such an investment of time or resources.  
+			         
+			         <h3>Step 6: Use public data to build customer relationships or lose them forever</h3>
+			         <p>Data can allow you to interact with your audience at an intimate level and apply personal focus to the biggest stories and issues that impact their lives. If you can't find a way to take public data and enrich the lives of your audience, they won't be your audience for long.</p>
+			         
+			         <h3>Step 7: Release the hounds</h3>
+			         <p>The power of the press has been distributed to the masses. Not everyone can use this power wisely, but I am pretty sure the people you have bothered to employ can. Listen to them and give them room to explore for you. If you don't, you'll likely see them do it on their own... against you.</p>
+			         
+			         <h3>Step 8: More awesome please</h3>
+			         <p>There is an opportunity cost incurred every time we sit down and dedicate resources to rehash an app or website or cms that already exists. Focus your attention on building things that weren't even conceivable 5 years or 2 years ago. Doing so will give you the best shot to move the needle within your organization.</p>      
+			     </div>  -->
 	<!-- /container -->
 
     <!-- Le javascript
