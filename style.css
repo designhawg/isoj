@@ -1,0 +1,380 @@
+
+	body {background: white;}
+
+/*	css sprite */	
+    .under {
+        font-size: 1.5em;
+        line-height: 350px;
+        font-weight: bold;
+        display: absolute;
+    }
+    
+    .under2{
+        font-size: 1.5em;
+        line-height: 450px;
+        font-weight: bold;
+        display: absolute;
+    }
+    
+    ul {list-style: none;
+        padding-bottom: 20px;
+        margin-bottom: 20px;}
+        
+    #stealth {margin: 0 0 0 0;
+        width: 100%;}
+    
+    a {
+        width: 150px;
+        height: 150px;
+        background: url('https://s3-us-west-2.amazonaws.com/s3testsite/img/ISOJ-icons-mid.png');
+        color: #dadada;
+        text-indent: -9000px;
+        margin: 20px 20px 30px 0;
+        text-decoration: none;
+        float: left;
+        }
+    
+        a#idea {background-position: 0 0;}
+        a:hover#idea {background-position: 0 -150px;
+            text-indent: 0;
+            text-align: center;
+            text-decoration: none;
+            color: #dadada;}
+        
+        a#meeting {background-position: -150px 0;}
+        a:hover#meeting {background-position: -150px -150px;
+            text-indent: 0;
+            text-align: center;
+            text-decoration: none;
+            color: #dadada;}
+            
+        a#wireframes {background-position: -300px 0;}
+        a:hover#wireframes {background-position: -300px -150px;
+            text-indent: 0;
+            text-align: center;
+            text-decoration: none;
+            color: #dadada;}
+
+        a#mockups {background-position: -450px 0;}
+        a:hover#mockups {background-position: -450px -150px;
+            text-indent: 0;
+            text-align: center;
+            text-decoration: none;
+            color: #dadada;}
+            
+        a#rfp {background-position: -600px 0;}
+        a:hover#rfp {background-position: -600px -150px;
+            text-indent: 0;
+            text-align: center;
+            text-decoration: none;
+            color: #dadada;}
+            
+        a#mvp {background-position: -750px 0;}
+        a:hover#mvp {background-position: -750px -150px;
+            text-indent: 0;
+            text-align: center;
+            text-decoration: none;
+            color: #dadada;}
+            
+        a#creep {background-position: -900px 0;}
+        a:hover#creep {background-position: -900px -150px;
+            text-indent: 0;
+            text-align: center;
+            text-decoration: none;
+            color: #dadada;}
+            
+        a#ghosts {background-position: -1150px 0;}
+        a:hover#ghosts {background-position: -1150px -150px;
+            text-indent: 0;
+            text-align: center;
+            text-decoration: none;
+            color: #dadada;}
+            
+        a#people {background-position: -1350px 0;}
+        a:hover#people {background-position: -1350px -150px;
+            text-indent: 0;
+            text-align: center;
+            text-decoration: none;
+            color: #dadada;}
+            
+            
+    .a2 {
+        width: 200px;
+        height: 200px;
+        background: url('https://s3-us-west-2.amazonaws.com/s3testsite/img/isoj_icons_big.png');
+        color: #dadada;
+        text-indent: -9000px;
+        margin: 20px 20px 30px 0;
+        text-decoration: none;
+        float: left;
+        }
+
+        a#idea2 {background-position: 0 0;}
+        a:hover#idea2 {background-position: 0 -200px;
+            text-indent: 0;
+            text-align: center;
+            text-decoration: none;
+            color: #dadada;}
+
+        a#meeting2 {background-position: -200px 0;}
+        a:hover#meeting2 {background-position: -200px -200px;
+            text-indent: 0;
+            text-align: center;
+            text-decoration: none;
+            color: #dadada;}
+
+        a#wireframes2 {background-position: -400px 0;}
+        a:hover#wireframes2 {background-position: -400px -200px;
+            text-indent: 0;
+            text-align: center;
+            text-decoration: none;
+            color: #dadada;}
+
+        a#mockups2 {background-position: -600px 0;}
+        a:hover#mockups2 {background-position: -600px -200px;
+            text-indent: 0;
+            text-align: center;
+            text-decoration: none;
+            color: #dadada;}
+
+        a#rfp2 {background-position: -800px 0;}
+        a:hover#rfp2 {background-position: -800px -200px;
+            text-indent: 0;
+            text-align: center;
+            text-decoration: none;
+            color: #dadada;}
+
+        a#mvp2 {background-position: -1000px 0;}
+        a:hover#mvp2 {background-position: -1000px -200px;
+            text-indent: 0;
+            text-align: center;
+            text-decoration: none;
+            color: #dadada;}
+
+        a#creep2 {background-position: -1200px 0;}
+        a:hover#creep2 {background-position: -1200px -200px;
+            text-indent: 0;
+            text-align: center;
+            text-decoration: none;
+            color: #dadada;}
+
+        a#ghosts2 {background-position: -1400px 0;}
+        a:hover#ghosts2 {background-position: -1400px -200px;
+            text-indent: 0;
+            text-align: center;
+            text-decoration: none;
+            color: #dadada;}
+
+        a#people2 {background-position: -1600px 0;}
+        a:hover#people2 {background-position: -1600px -200px;
+            text-indent: 0;
+            text-align: center;
+            text-decoration: none;
+            color: #dadada;}
+            
+            
+            
+	
+/*	intro div */	
+	
+	#tainer1 {
+		background: url('https://s3-us-west-2.amazonaws.com/s3testsite/img/lean_top_back.jpg') no-repeat;
+		-webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;}
+		
+	#tainer2 {
+		background: url('https://s3-us-west-2.amazonaws.com/s3testsite/img/lean_whammy_back.jpg') no-repeat;
+		-webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;}
+		
+	#tainer3 {
+		background: url('https://s3-us-west-2.amazonaws.com/s3testsite/img/lean_anarchy_back.jpg') no-repeat;
+		-webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;}
+		
+	#tainer4 {
+		background: url('https://s3-us-west-2.amazonaws.com/s3testsite/img/spyback.jpg') no-repeat;
+		-webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;}
+		  
+	#tainer4 {
+  		background: url('https://s3-us-west-2.amazonaws.com/s3testsite/img/spyback.jpg') no-repeat;
+  		-webkit-background-size: cover;
+  		  -moz-background-size: cover;
+  		  -o-background-size: cover;
+  		  background-size: cover;}
+  		  
+    #tainer5 {
+		background: url('https://s3-us-west-2.amazonaws.com/s3testsite/img/walk_back.jpg') no-repeat;
+		-webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;
+		 border-top: 10px solid #333333; 
+		 }
+		 
+     #tainer7 {
+ 		background: url('https://s3-us-west-2.amazonaws.com/s3testsite/img/crowd_back.jpg') no-repeat;
+ 		-webkit-background-size: cover;
+ 		  -moz-background-size: cover;
+ 		  -o-background-size: cover;
+ 		  background-size: cover;
+ 		 border-top: 10px solid #333333; 
+ 		 }
+    #tainer8 {
+ 		background: url('https://s3-us-west-2.amazonaws.com/s3testsite/img/brand_back.jpg') no-repeat;
+ 		-webkit-background-size: cover;
+ 		  -moz-background-size: cover;
+ 		  -o-background-size: cover;
+ 		  background-size: cover;
+ 		 border-top: 10px solid #333333; 
+ 		 }
+ 		 
+    #tainer9 {
+  		background: url('https://s3-us-west-2.amazonaws.com/s3testsite/img/tribpage_back.jpg') no-repeat;
+  		-webkit-background-size: cover;
+  		  -moz-background-size: cover;
+  		  -o-background-size: cover;
+  		  background-size: cover;
+  		 border-top: 10px solid #333333; 
+  		 }
+  		 
+         #tainer11 {
+       		background: #B11116; 
+       		 }
+
+
+    #tainercorp {
+		background: url('https://s3-us-west-2.amazonaws.com/s3testsite/img/business_back.jpg') no-repeat;
+		-webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;}
+		  
+    #tainercustomer {
+		background: url('https://s3-us-west-2.amazonaws.com/s3testsite/img/customer_back.jpg') no-repeat;
+		-webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;}		  
+		  
+	
+	.panelpad {
+		padding: 30px;
+		margin: 300px 0;
+	}
+	
+	.panelshallow {
+		padding: 0;
+		margin: 200px 0;
+	}
+	
+	#anarchy {
+	    margin: 200px 0;
+	}
+
+	
+	.mainhead {
+		text-align: left;
+		font-size: 13em;
+		line-height: .8em;
+		color: #dadada;
+		font-family: "jaf-bernino-sans-comp",sans-serif;
+		letter-spacing: -.02em;
+		font-weight: 800;
+		text-transform: uppercase;
+	}
+		
+	.mainsub {
+		font-size: 4.5em;
+		line-height: .9em;
+		color: #dadada;		
+		font-family: "jaf-bernino-sans-comp",sans-serif;
+		font-weight: 400;
+		letter-spacing: -.01em;
+		text-align: left;
+		padding-bottom: 20px;
+	}
+	
+	.author {
+		font-size: 3em;
+		margin-top: 0px;
+		width: 50%;
+		padding: 27px 15px 20px 15px;
+		background: #dadada;
+		font-family: "jaf-bernino-sans-comp",sans-serif;
+		text-transform: none;
+		color: #480000;
+		letter-spacing: -.02em;
+		
+		
+	}
+	
+	.first {padding-top: 10px;}
+	
+	.ghosties {
+	    background: url('https://s3-us-west-2.amazonaws.com/s3testsite/img/ghost_icon.png') no-repeat;
+	    display: block;
+	    width: 150px;
+        height: 150px;
+        margin: 0 0 10px 5px;
+/*        float: left;
+*/	}
+
+	.homework {
+	    background: url('https://s3-us-west-2.amazonaws.com/s3testsite/img/homework.jpg') no-repeat;
+	    display: block;
+	    width: 100%;
+	    height: 300px;
+        margin: 0 0 0 -20px;
+/*        float: left;
+*/	}
+	
+	.startup {
+	    background: url('https://s3-us-west-2.amazonaws.com/s3testsite/img/startup_icons.png') no-repeat;
+	    display: block;
+	    width: 100%;
+	    height: 200px;
+	    padding-top: 20px;
+        margin: 0 0 10px -5px;
+    }
+
+	.black { color: #000000; }
+	
+	.grey { color: #BBBBBB; }
+		
+	.smaller {
+	    font-size: 9em;
+	    line-height: .85em;
+	    margin-bottom: 20px;
+	}
+	
+	.bullet {
+	    font-size: 3.5em;
+	    margin-bottom: 10px;
+	}
+	
+	.rightpad {
+	    padding-top: 20px;
+	}
+	
+	.lift { margin-top: -100px;
+	}
+	
+	h1, p {
+		color: #777777;
+		font-size: 3em;
+		font-weight: normal;
+		padding-top: 50px;
+	}
+	
+	p { padding-top: 10px;
+		font-size: 1.2em; }

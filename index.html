@@ -1,407 +1,19 @@
 <html>
 
 <head>
-	<title>S3 testpage</title>
-	<style>
+	<title>S3 testpage</title>	
 
-	body {background: #333333;}
-
-/*	css sprite */	
-    .under {
-        font-size: 1.5em;
-        line-height: 350px;
-        font-weight: bold;
-        display: absolute;
-    }
-    
-    .under2{
-        font-size: 1.5em;
-        line-height: 450px;
-        font-weight: bold;
-        display: absolute;
-    }
-    
-    ul {list-style: none;
-        padding-bottom: 20px;
-        margin-bottom: 20px;}
-        
-    #stealth {margin: 0 0 0 0;
-        width: 100%;}
-    
-    a {
-        width: 150px;
-        height: 150px;
-        background: url('https://s3-us-west-2.amazonaws.com/s3testsite/img/ISOJ-icons-mid.png');
-        color: #dadada;
-        text-indent: -9000px;
-        margin: 20px 20px 30px 0;
-        text-decoration: none;
-        float: left;
-        }
-    
-        a#idea {background-position: 0 0;}
-        a:hover#idea {background-position: 0 -150px;
-            text-indent: 0;
-            text-align: center;
-            text-decoration: none;
-            color: #dadada;}
-        
-        a#meeting {background-position: -150px 0;}
-        a:hover#meeting {background-position: -150px -150px;
-            text-indent: 0;
-            text-align: center;
-            text-decoration: none;
-            color: #dadada;}
-            
-        a#wireframes {background-position: -300px 0;}
-        a:hover#wireframes {background-position: -300px -150px;
-            text-indent: 0;
-            text-align: center;
-            text-decoration: none;
-            color: #dadada;}
-
-        a#mockups {background-position: -450px 0;}
-        a:hover#mockups {background-position: -450px -150px;
-            text-indent: 0;
-            text-align: center;
-            text-decoration: none;
-            color: #dadada;}
-            
-        a#rfp {background-position: -600px 0;}
-        a:hover#rfp {background-position: -600px -150px;
-            text-indent: 0;
-            text-align: center;
-            text-decoration: none;
-            color: #dadada;}
-            
-        a#mvp {background-position: -750px 0;}
-        a:hover#mvp {background-position: -750px -150px;
-            text-indent: 0;
-            text-align: center;
-            text-decoration: none;
-            color: #dadada;}
-            
-        a#creep {background-position: -900px 0;}
-        a:hover#creep {background-position: -900px -150px;
-            text-indent: 0;
-            text-align: center;
-            text-decoration: none;
-            color: #dadada;}
-            
-        a#ghosts {background-position: -1150px 0;}
-        a:hover#ghosts {background-position: -1150px -150px;
-            text-indent: 0;
-            text-align: center;
-            text-decoration: none;
-            color: #dadada;}
-            
-        a#people {background-position: -1350px 0;}
-        a:hover#people {background-position: -1350px -150px;
-            text-indent: 0;
-            text-align: center;
-            text-decoration: none;
-            color: #dadada;}
-            
-            
-    .a2 {
-        width: 200px;
-        height: 200px;
-        background: url('https://s3-us-west-2.amazonaws.com/s3testsite/img/isoj_icons_big.png');
-        color: #dadada;
-        text-indent: -9000px;
-        margin: 20px 20px 30px 0;
-        text-decoration: none;
-        float: left;
-        }
-
-        a#idea2 {background-position: 0 0;}
-        a:hover#idea2 {background-position: 0 -200px;
-            text-indent: 0;
-            text-align: center;
-            text-decoration: none;
-            color: #dadada;}
-
-        a#meeting2 {background-position: -200px 0;}
-        a:hover#meeting2 {background-position: -200px -200px;
-            text-indent: 0;
-            text-align: center;
-            text-decoration: none;
-            color: #dadada;}
-
-        a#wireframes2 {background-position: -400px 0;}
-        a:hover#wireframes2 {background-position: -400px -200px;
-            text-indent: 0;
-            text-align: center;
-            text-decoration: none;
-            color: #dadada;}
-
-        a#mockups2 {background-position: -600px 0;}
-        a:hover#mockups2 {background-position: -600px -200px;
-            text-indent: 0;
-            text-align: center;
-            text-decoration: none;
-            color: #dadada;}
-
-        a#rfp2 {background-position: -800px 0;}
-        a:hover#rfp2 {background-position: -800px -200px;
-            text-indent: 0;
-            text-align: center;
-            text-decoration: none;
-            color: #dadada;}
-
-        a#mvp2 {background-position: -1000px 0;}
-        a:hover#mvp2 {background-position: -1000px -200px;
-            text-indent: 0;
-            text-align: center;
-            text-decoration: none;
-            color: #dadada;}
-
-        a#creep2 {background-position: -1200px 0;}
-        a:hover#creep2 {background-position: -1200px -200px;
-            text-indent: 0;
-            text-align: center;
-            text-decoration: none;
-            color: #dadada;}
-
-        a#ghosts2 {background-position: -1400px 0;}
-        a:hover#ghosts2 {background-position: -1400px -200px;
-            text-indent: 0;
-            text-align: center;
-            text-decoration: none;
-            color: #dadada;}
-
-        a#people2 {background-position: -1600px 0;}
-        a:hover#people2 {background-position: -1600px -200px;
-            text-indent: 0;
-            text-align: center;
-            text-decoration: none;
-            color: #dadada;}
-            
-            
-            
-	
-/*	intro div */	
-	
-	#tainer1 {
-		background: url('https://s3-us-west-2.amazonaws.com/s3testsite/img/lean_top_back.jpg') no-repeat;
-		-webkit-background-size: cover;
-		  -moz-background-size: cover;
-		  -o-background-size: cover;
-		  background-size: cover;}
-		
-	#tainer2 {
-		background: url('https://s3-us-west-2.amazonaws.com/s3testsite/img/lean_whammy_back.jpg') no-repeat;
-		-webkit-background-size: cover;
-		  -moz-background-size: cover;
-		  -o-background-size: cover;
-		  background-size: cover;}
-		
-	#tainer3 {
-		background: url('https://s3-us-west-2.amazonaws.com/s3testsite/img/lean_anarchy_back.jpg') no-repeat;
-		-webkit-background-size: cover;
-		  -moz-background-size: cover;
-		  -o-background-size: cover;
-		  background-size: cover;}
-		
-	#tainer4 {
-		background: url('https://s3-us-west-2.amazonaws.com/s3testsite/img/spyback.jpg') no-repeat;
-		-webkit-background-size: cover;
-		  -moz-background-size: cover;
-		  -o-background-size: cover;
-		  background-size: cover;}
-		  
-	#tainer4 {
-  		background: url('https://s3-us-west-2.amazonaws.com/s3testsite/img/spyback.jpg') no-repeat;
-  		-webkit-background-size: cover;
-  		  -moz-background-size: cover;
-  		  -o-background-size: cover;
-  		  background-size: cover;}
-  		  
-    #tainer5 {
-		background: url('https://s3-us-west-2.amazonaws.com/s3testsite/img/walk_back.jpg') no-repeat;
-		-webkit-background-size: cover;
-		  -moz-background-size: cover;
-		  -o-background-size: cover;
-		  background-size: cover;
-		 border-top: 10px solid #333333; 
-		 }
-		 
-     #tainer7 {
- 		background: url('https://s3-us-west-2.amazonaws.com/s3testsite/img/crowd_back.jpg') no-repeat;
- 		-webkit-background-size: cover;
- 		  -moz-background-size: cover;
- 		  -o-background-size: cover;
- 		  background-size: cover;
- 		 border-top: 10px solid #333333; 
- 		 }
-    #tainer8 {
- 		background: url('https://s3-us-west-2.amazonaws.com/s3testsite/img/brand_back.jpg') no-repeat;
- 		-webkit-background-size: cover;
- 		  -moz-background-size: cover;
- 		  -o-background-size: cover;
- 		  background-size: cover;
- 		 border-top: 10px solid #333333; 
- 		 }
- 		 
-    #tainer9 {
-  		background: url('https://s3-us-west-2.amazonaws.com/s3testsite/img/tribpage_back.jpg') no-repeat;
-  		-webkit-background-size: cover;
-  		  -moz-background-size: cover;
-  		  -o-background-size: cover;
-  		  background-size: cover;
-  		 border-top: 10px solid #333333; 
-  		 }
-  		 
-         #tainer11 {
-       		background: #B11116; 
-       		 }
-
-
-    #tainercorp {
-		background: url('https://s3-us-west-2.amazonaws.com/s3testsite/img/business_back.jpg') no-repeat;
-		-webkit-background-size: cover;
-		  -moz-background-size: cover;
-		  -o-background-size: cover;
-		  background-size: cover;}
-		  
-    #tainercustomer {
-		background: url('https://s3-us-west-2.amazonaws.com/s3testsite/img/customer_back.jpg') no-repeat;
-		-webkit-background-size: cover;
-		  -moz-background-size: cover;
-		  -o-background-size: cover;
-		  background-size: cover;}		  
-		  
-	
-	.panelpad {
-		padding: 30px;
-		margin: 300px 0;
-	}
-	
-	.panelshallow {
-		padding: 0;
-		margin: 200px 0;
-	}
-	
-	#anarchy {
-	    margin: 200px 0;
-	}
-
-	
-	.mainhead {
-		text-align: left;
-		font-size: 13em;
-		line-height: .8em;
-		color: #dadada;
-		font-family: "jaf-bernino-sans-comp",sans-serif;
-		letter-spacing: -.02em;
-		font-weight: 800;
-		text-transform: uppercase;
-	}
-		
-	.mainsub {
-		font-size: 4.5em;
-		line-height: .9em;
-		color: #dadada;		
-		font-family: "jaf-bernino-sans-comp",sans-serif;
-		font-weight: 400;
-		letter-spacing: -.01em;
-		text-align: left;
-		padding-bottom: 20px;
-	}
-	
-	.author {
-		font-size: 3em;
-		margin-top: 0px;
-		width: 50%;
-		padding: 27px 15px 20px 15px;
-		background: #dadada;
-		font-family: "jaf-bernino-sans-comp",sans-serif;
-		text-transform: none;
-		color: #480000;
-		letter-spacing: -.02em;
-		
-		
-	}
-	
-	.first {padding-top: 10px;}
-	
-	.ghosties {
-	    background: url('https://s3-us-west-2.amazonaws.com/s3testsite/img/ghost_icon.png') no-repeat;
-	    display: block;
-	    width: 150px;
-        height: 150px;
-        margin: 0 0 10px 5px;
-/*        float: left;
-*/	}
-
-	.homework {
-	    background: url('https://s3-us-west-2.amazonaws.com/s3testsite/img/homework.jpg') no-repeat;
-	    display: block;
-	    width: 100%;
-	    height: 300px;
-        margin: 0 0 0 -20px;
-/*        float: left;
-*/	}
-	
-	.black { color: #000000; }
-	
-	.grey { color: #BBBBBB; }
-		
-	.smaller {
-	    font-size: 9em;
-	    line-height: .85em;
-	    margin-bottom: 20px;
-	}
-	
-	.bullet {
-	    font-size: 3.5em;
-	    margin-bottom: 10px;
-	}
-	
-	.rightpad {
-	    padding-top: 20px;
-	}
-	
-	.lift { margin-top: -100px;
-	}
-	
-	h1, p {
-		color: #777777;
-		font-size: 3em;
-		font-weight: normal;
-		padding-top: 50px;
-	}
-	
-	p { padding-top: 10px;
-		font-size: 1.2em; }
-	</style>
-	
-	<link href="https://s3-us-west-2.amazonaws.com/s3testsite/css/bootstrap.min.css" media="all" rel="stylesheet" type="text/css" />
+<!-- styles -->
+    <link href="https://s3-us-west-2.amazonaws.com/s3testsite/css/bootstrap.min.css" media="all" rel="stylesheet" type="text/css" />
 	<link href="https://s3-us-west-2.amazonaws.com/s3testsite/css/bootstrap-responsive.min.css" media="all" rel="stylesheet" type="text/css" />
+	<link href="https://s3-us-west-2.amazonaws.com/s3testsite/css/style.css" type="text/css" media="screen" title="no title" rel="stylesheet">
 
+<!-- typekit -->
 	<script type="text/javascript" src="//use.typekit.net/rbg7ivg.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-		
 </head>
 
 <body>
-
-<!-- 
-done slide 1... done intro
-done slide 2... background (excelerate, etc)
-done slide 3... your plan is wrong
-done slide 4... apps are bad for building a product
-
-slide 5... show the cycle of apps
-slide 6... just ship it... don't let your own perfection kill you (lean startup, eric ries)
-slide 7... walk of fame example
-slide 8... show the cycle of testing
-slide 9... dropbox, launchrock & google ads
-slide 10... many ideas (guy kawasaki, art of the start)
-slide 11... building many responsive sites (tribune)
-slide 12... always be testing (lean UX)
--->
-
 
 		<!-- <div class="navbar navbar-inverse navbar-fixed-top">
 	     <div class="navbar-inner">
@@ -453,8 +65,8 @@ slide 12... always be testing (lean UX)
 				<div class="span1 hidden-phone"></div>
 			
 				<div class="span10 panelpad">
-					<h1 class="mainhead black">Your plan <br>is wrong!</h1>
-					<h5 class="mainsub black first">Strategy is never 100% correct.</h5>
+					<h1 class="mainhead black">You're doing <br>it wrong!</h1>
+					<h5 class="mainsub black first">The plan never survives contact...</h5>
 					
 				</div>
 				<div class="span1 hidden-phone"></div>
@@ -513,8 +125,7 @@ slide 12... always be testing (lean UX)
 					<h1 class="mainhead smaller">Meet the <br>LA Walk <br>of Fame app</h1>
 					<h5 class="mainsub bullet first">Thousands of pages of content</h5>
 					<h5 class="mainsub bullet">Great photography archive</h5>
-					<h5 class="mainsub bullet">Street team scouring Hollywood Blvd</h5>
-					<h5 class="mainsub bullet">Tour operators loved it</h5>
+					<h5 class="mainsub bullet">Fantastic promotion support<br>from Tribune</h5>
 					</div>
 					<div class="span6 righttext rightpad"><img src="https://s3-us-west-2.amazonaws.com/s3testsite/img/la_iphone.png" width="90%">
 					</div>
@@ -530,7 +141,6 @@ slide 12... always be testing (lean UX)
 					<h1 class="mainhead grey">Nobody wanted it</h1>
 					<h5 class="mainsub bullet grey first">Ultra-niche market</h5>
 					<h5 class="mainsub bullet grey">Likely users were late tech adopters</h5>
-					<h5 class="mainsub bullet grey">Tour operators kept it to themselves</h5>
 			    </div>
 				<div class="span1 hidden-phone"></div>
 			</div>
@@ -553,7 +163,7 @@ slide 12... always be testing (lean UX)
 					<h1 class="mainhead black smaller">&ldquo;...but releasing <br>unfinished products <br>will damage our brand!&rdquo;</h1>
 					<h5 class="mainsub black bullet first">Don't use your brand name</h5>
 					<h5 class="mainsub black bullet">Do the user testing offsite</h5>
-					<h5 class="mainsub black bullet">if all else fails... duck tape something together and release.</h5>
+					<h5 class="mainsub black bullet">if all else fails... duct tape something together and release.</h5>
 			    </div>
 				<div class="span1 hidden-phone"></div>
 			</div>
